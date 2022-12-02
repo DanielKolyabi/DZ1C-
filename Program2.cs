@@ -1,12 +1,19 @@
-Console.WriteLine("Напишите порядковый номер дня недели.");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите посследовательность координат: ");
+//             Console.Write("aX: ");
+//            int aX = Convert.ToInt32(Console.ReadLine());
+//             Console.Write("aY: ");
+//           int  aY = Convert.ToInt32(Console.ReadLine());
+//             Console.Write("aZ: ");
+//           int  aZ = Convert.ToInt32(Console.ReadLine());
 
+//             Console.Write("bX: ");
+//            int bX = Convert.ToInt32(Console.ReadLine());
+//             Console.Write("bY: ");
+//            int bY = Convert.ToInt32(Console.ReadLine());
+//             Console.Write("bZ: ");
+//            int bZ = Convert.ToInt32(Console.ReadLine());
 
-if (number > 5 && number <= 7)
-
-    Console.WriteLine("Да, этот день выходной!");
-
-else if (number >= 1 && number <= 5 )
-    Console.WriteLine("Увы, но это рабочий день!");
-else
-    Console.WriteLine("Число введино не верно!");
+//            double resultDoub = Math.Pow(bX - aX, 2) + Math.Pow(bY - aY, 2) + Math.Pow(bZ - aZ, 2);
+//             resultDoub = Math.Sqrt(resultDoub);
+//             resultDoub = Math.Round(resultDoub, 2);
+//             Console.WriteLine(resultDoub);
