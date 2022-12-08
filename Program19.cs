@@ -1,19 +1,15 @@
-Console.WriteLine("Введите число: ");
-string number = Console.ReadLine();
-int len = number.Length;
+// static int Sum(int a)
+// {
+//     int s = 0;
+//     while (a > 0)
+//     {
 
-if (len == 5)
-{
-    if (number[0] == number[4] && number[1] == number[3])
-    {
-        Console.WriteLine($"{number} - Палиндром");
-    }
-    else
-    {
-        Console.WriteLine($"{number} - НЕ палиндром");
-    }
-}
-else
-{
-    Console.WriteLine($"ОШИБКА: {number} - не является пятизначным");
-}
+//         s = s + a % 10;
+//         a = a / 10;
+
+//     }
+//     return s;
+// }
+// Console.WriteLine("Введите число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(Sum(a));
